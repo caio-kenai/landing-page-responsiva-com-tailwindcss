@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sua Agência de Marketing Digital</title>
+    <!-- Inclui a CDN do Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Estilos personalizados para o vídeo do Google Drive */
+        .video-wrapper {
+            position: relative;
+            /* Proporção para vídeos verticais (9:16). */
+            padding-bottom: 177.77%; 
+            height: 0;
+            background-color: #000;
+        }
+
+        .video-wrapper iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        /* Efeito de Parallax (funciona melhor em desktops) */
+        .parallax-bg {
+            background-image: url('img/mulher_teste.jpg');
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+       
+    </style>
+</head>
+<body class="bg-gray-100 font-sans">
+    
+    <!-- Seção do Cabeçalho e Logo -->
+    <header class="bg-white py-4 px-4 md:px-8 shadow-md rounded-b-3xl">
+        <div class="container mx-auto flex items-center justify-between">
+            <!-- Logo da Empresa - Agora responsiva com Tailwind -->
+            <img 
+                src="img/logo.avif" 
+                alt="Logo da Empresa" 
+                class="h-10 md:h-12 lg:h-16"
+            >
+            <!-- Você pode adicionar um menu de navegação aqui se precisar -->
+        </div>
+    </header>
+
+    <!-- Seção do Header/Hero -->
+    <header class="bg-green-700 text-white py-20 px-4 md:px-8 text-center rounded-b-3xl">
+        <div class="container mx-auto">
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight mb-4">
+                <span class="text-yellow-200">Você já tentou</span> perder peso <span class="text-yellow-200">e sempre sente a culpa</span> mais pesada que à balança?
+            </h1>
+            <p class="text-lg md:text-xl max-w-2xl mx-auto mb-8">
+                Atraia mais clientes, aumente suas vendas e fortaleça sua marca na internet.
+            </p>
+            <a href="https://pay.kiwify.com.br/9Q5AFR9" class="bg-red-500 hover:bg-red-600 text-white font-bold py-3 px-8 rounded-full shadow-lg transition duration-300 transform hover:scale-105">
+                SAIBA COMO FUNCIONA
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Seção do Vídeo -->
+        <section class="py-12 px-4 md:px-8">
+            <div class="container mx-auto max-w-md bg-white p-6 rounded-2xl shadow-xl transform transition-all duration-300 hover:scale-105">
+                <p class="bg-green-600 text-white font-bold text-center py-2 rounded-t-lg text-lg">ASSISTA</p>
+                <div class="video-wrapper rounded-b-lg overflow-hidden">
+                    <!-- O iframe do Google Drive foi mantido, mas verifique se funciona como esperado -->
+                    <iframe src="https://drive.google.com/file/d/1_hi5nMzweTXHE6uEHUyqaqrmstjxLvgY/preview" allow="autoplay" allowfullscreen></iframe>
+                </div>
+                <a href="https://pay.kiwify.com.br/9Q5AFR9" class="block bg-red-500 hover:bg-red-600 text-white font-bold text-center py-4 rounded-b-lg shadow-lg mt-4 transition duration-300 transform hover:scale-105">
+                    SAIBA COMO FUNCIONA
+                </a>
+            </div>
+        </section>
+
+        <!-- Seção de Parallax e CTA -->
+        <section class="py-20 px-4 md:px-8 text-center text-white parallax-bg">
+            <div class="bg-black bg-opacity-60 rounded-3xl p-8 max-w-3xl mx-auto backdrop-blur-sm shadow-xl">
+                <h2 class="text-4xl md:text-5xl font-bold mb-4">Encontre paz com a comida e com você mesma</h2>
+                <p class="text-lg md:text-xl max-w-2xl mx-auto mb-8">Transforme sua relação com a comida, livre-se da culpa e do estresse.</p>
+                <!-- Botão corrigido para responsividade em modo celular -->
+                <a href="https://pay.kiwify.com.br/9Q5AFR9" class="block w-full sm:inline-block sm:w-auto bg-yellow-200 text-green-800 font-bold py-3 px-6 rounded-full shadow-lg transition duration-300 hover:bg-yellow-100 transform hover:scale-105 mt-6">
+                    VIVER ESSA TRANSFORMAÇÃO
+                </a>
+            </div>
+        </section>
+
+        <!-- Seção de Tópicos de Emagrecimento -->
+        <section class="bg-green-700 text-white py-12 px-4 md:px-8 text-center rounded-3xl mx-auto -mt-16 relative z-10">
+            <h2 class="text-3xl font-bold mb-2">Seu processo de <strong class="text-yellow-200">emagrecimento</strong> pode ser tranquilo</h2>
+            <p class="text-lg mb-8 max-w-xl mx-auto">Transforme seu relacionamento com a comida por meio de apoio e compreensão para uma mudança duradoura.</p>
+
+            <div class="max-w-xl mx-auto border-2 border-green-400 rounded-3xl p-6 mb-8">
+                <div class="flex flex-col gap-4">
+                    <div class="bg-green-600 text-white p-4 rounded-xl font-semibold">REEDUCAÇÃO ALIMENTAR</div>
+                    <div class="bg-green-600 text-white p-4 rounded-xl font-semibold">CONTROLE DA ANSIEDADE EMOCIONAL</div>
+                    <div class="bg-green-600 text-white p-4 rounded-xl font-semibold">AUTOCONHECIMENTO PARA MANTER RESULTADOS</div>
+                    <div class="bg-green-600 text-white p-4 rounded-xl font-semibold">SUPORTE EM GRUPO COM MENTORIA ATIVA</div>
+                </div>
+            </div>
+            <a href="https://pay.kiwify.com.br/9Q5AFR9" class="bg-yellow-200 text-green-800 font-bold py-3 px-8 rounded-full shadow-lg transition duration-300 hover:bg-yellow-100 transform hover:scale-105">
+                SAIBA COMO FUNCIONA
+            </a>
+        </section>
+
+        <!-- Seção de Depoimentos com Parallax -->
+        <section class="py-16 px-4 md:px-8 text-white text-center rounded-3xl mx-auto relative z-10 parallax-bg"
+            style="background-image: url('img/comentarios.jpg');">
+            <div class="bg-gray-800 bg-opacity-75 p-6 rounded-3xl backdrop-blur-sm">
+                <h2 class="text-4xl font-bold mb-12">O que nossos clientes dizem</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                    <!-- Depoimento 1 -->
+                    <div class="bg-white text-gray-800 p-8 rounded-2xl shadow-xl border border-gray-300">
+                        <div class="text-yellow-400 text-2xl mb-4">★★★★★</div>
+                        <blockquote class="italic text-lg mb-6">"Depois de 15 anos fazendo dieta, finalmente consigo comer pizza sem culpa e ainda assim manter meu peso ideal. O RED•AP me libertou do ciclo vicioso."</blockquote>
+                        <div class="flex items-center justify-center">
+                            <img src="https://placehold.co/100x100/E989A3/white?text=P" alt="Foto de Patricia Oliveira" class="w-16 h-16 rounded-full border-2 border-green-500 mr-4">
+                            <cite class="not-italic text-left">
+                                <strong class="block text-xl">Patricia Oliveira</strong>
+                                <span class="text-sm text-gray-600">advogada, Brasília</span>
+                            </cite>
+                        </div>
+                    </div>
+                    <!-- Depoimento 2 -->
+                    <div class="bg-white text-gray-800 p-8 rounded-2xl shadow-xl border border-gray-300">
+                        <div class="text-yellow-400 text-2xl mb-4">★★★★★</div>
+                        <blockquote class="italic text-lg mb-6">"Hoje saio para jantar com as amigas e não fico calculando calorias na cabeça. Como com prazer e meu corpo responde naturalmente. Nunca pensei que isso fosse possível!"</blockquote>
+                        <div class="flex items-center justify-center">
+                            <img src="https://placehold.co/100x100/7B8DDE/white?text=R" alt="Foto de Roberta Santos" class="w-16 h-16 rounded-full border-2 border-green-500 mr-4">
+                            <cite class="not-italic text-left">
+                                <strong class="block text-xl">Roberta Santos</strong>
+                                <span class="text-sm text-gray-600">empresária, Curitiba</span>
+                            </cite>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de Preços e CTA Final - Margem corrigida -->
+        <section class="bg-green-600 text-white py-16 px-4 md:px-8 text-center rounded-3xl mx-auto relative z-10">
+            <div class="max-w-xl mx-auto">
+                <p class="text-xl line-through text-gray-300">Antes: R$697,90</p>
+                <h2 class="text-4xl md:text-5xl font-extrabold mb-4">
+                    Mas eu quero que você transforme sua relação com a comida em
+                    <span class="block text-6xl md:text-7xl font-bold text-yellow-200 mt-2">30 dias</span>
+                </h2>
+                
+                <div class="bg-white text-gray-800 p-8 rounded-2xl shadow-xl mt-8">
+                    <p class="text-sm text-gray-600 mb-4">Este é, acima de tudo, um investimento em você e na transformação que você merece, de dentro para fora.</p>
+                    <hr class="border-t border-gray-300 my-4">
+                    <p class="text-xl mb-1">Por apenas 12x de</p>
+                    <p class="text-6xl font-extrabold text-green-700 mb-2">R$20,47</p>
+                    <p class="font-bold text-gray-600">OU R$ 197,90 À VISTA</p>
+                    <hr class="border-t border-gray-300 my-4">
+                    <p class="text-sm text-gray-600">Toque no botão abaixo. Estou te esperando do outro lado!</p>
+                </div>
+                
+                <a href="https://pay.kiwify.com.br/9Q5AFR9" target="_blank" class="block bg-yellow-200 text-green-800 font-bold py-4 rounded-full shadow-lg mt-8 text-lg transition duration-300 hover:bg-yellow-100 transform hover:scale-105">
+                    GARANTIR MINHA VAGA
+                </a>
+
+                <div class="bg-white text-green-700 font-bold py-6 px-4 rounded-lg shadow-xl mt-8">
+                    <div class="text-6xl mb-1">150+</div>
+                    <p class="text-xl">Vidas Transformadas</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de Perguntas Frequentes (FAQ) com Parallax -->
+        <section class="py-16 px-4 md:px-8 parallax-bg"
+            style="background-image: url('img/FAQ.jpg');">
+            <div class="max-w-3xl mx-auto bg-white bg-opacity-90 rounded-3xl p-6 shadow-xl backdrop-blur-sm">
+                <h2 class="text-4xl font-bold text-center mb-12 text-gray-800">Perguntas Frequentes</h2>
+                <div class="space-y-8">
+                    <!-- FAQ Item 1 -->
+                    <div class="bg-gray-100 p-6 rounded-2xl shadow-lg border border-gray-300">
+                        <h3 class="text-xl font-semibold text-green-700 mb-2">"Isso é uma dieta?"</h3>
+                        <p class="text-gray-600">Não! O RED-AP é o oposto de dieta. Enquanto dietas restringem e criam culpa, nosso método te ensina a comer com liberdade e consciência. Sem listas proibidas, sem contar calorias, sem sofrimento.</p>
+                    </div>
+                    <!-- FAQ Item 2 -->
+                    <div class="bg-gray-100 p-6 rounded-2xl shadow-lg border border-gray-300">
+                        <h3 class="text-xl font-semibold text-green-700 mb-2">"Posso fazer sozinha ou preciso de acompanhamento profissional?"</h3>
+                        <p class="text-gray-600">O RED-AP foi feito para ser aplicado sozinha! É completo e didático, sem depender de consultas caras ou agendas. Sua autonomia é parte da sua liberdade. Pode complementar com acompanhamento se quiser, mas não precisa.</p>
+                    </div>
+                    <!-- FAQ Item 3 -->
+                    <div class="bg-gray-100 p-6 rounded-2xl shadow-lg border border-gray-300">
+                        <h3 class="text-xl font-semibold text-green-700 mb-2">"Quanto tempo leva para ver resultados?"</h3>
+                        <p class="text-gray-600">A maioria sente mudanças em 2-3 semanas! A leveza mental (fim da culpa) vem ainda mais rápido - muitas nos primeiros dias. A física vem naturalmente conforme implementa as técnicas.</p>
+                    </div>
+                    <!-- FAQ Item 4 -->
+                    <div class="bg-gray-100 p-6 rounded-2xl shadow-lg border border-gray-300">
+                        <h3 class="text-xl font-semibold text-green-700 mb-2">"Funciona mesmo? Já tentei várias vezes"</h3>
+                        <p class="text-gray-600">Especialmente para quem já tentou muito! Se fez várias dietas e "falhou", o problema nunca foi você - foi o método. O RED-AP quebra o ciclo de dietas que levam ao efeito sanfona. Quanto mais tentou, mais preparada está para uma solução definitiva.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="bg-gray-900 text-white py-12 px-4 md:px-8 rounded-t-3xl">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 text-center md:text-left">
+            <!-- Coluna 1 -->
+            <div>
+                <h3 class="text-2xl font-bold mb-4">Saúde</h3>
+                <p class="text-gray-400 mb-4">Transforme sua relação com a comida e emagreça.</p>
+                <div class="flex justify-center md:justify-start space-x-4">
+                    <!-- Ícones SVG para redes sociais -->
+                    <a target="_blank" href="https://www.facebook.com/therezasabara?locale=pt_BR" aria-label="Facebook">
+                        <svg class="h-8 w-8 text-white hover:text-blue-500 transition duration-300" fill="currentColor" viewBox="0 0 24 24"><path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.494v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.323-1.325z"/></svg>
+                    </a>
+                    <a target="_blank" href="https://www.instagram.com/thereza.sabara" aria-label="Instagram">
+                        <svg class="h-8 w-8 text-white hover:text-pink-500 transition duration-300" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.85s-.011 3.584-.069 4.85c-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07s-3.584-.012-4.85-.07c-3.252-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.85s.012-3.584.07-4.85c.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.85-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948s.014 3.667.072 4.947c.2 4.359 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072s3.667-.014 4.947-.072c4.359-.2 6.78-2.618 6.98-6.98.058-1.281.072-1.689.072-4.948s-.014-3.667-.072-4.947c-.2-4.359-2.618-6.78-6.98-6.98-1.281-.059-1.689-.072-4.948-.072zM12 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.162 6.162 6.162 6.162-2.759 6.162-6.162-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4s1.791-4 4-4 4 1.79 4 4-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.441 1.441 1.441 1.441-.645 1.441-1.441-.645-1.44-1.441-1.44z"/></svg>
+                    </a>
+                </div>
+            </div>
+            <!-- Coluna 2 -->
+            <div>
+                <h3 class="text-2xl font-bold mb-4">BEM-ESTAR</h3>
+                <p class="text-gray-400 mb-4">Digite seu e-mail aqui</p>
+                <form class="flex flex-col sm:flex-row gap-2">
+                    <input type="email" placeholder="seuemail@exemplo.com" required class="flex-grow p-3 rounded-lg text-gray-800 focus:outline-none focus:ring-2 focus:ring-green-500">
+                    <button type="submit" class="bg-green-500 hover:bg-green-600 text-white font-bold p-3 rounded-lg transition duration-300">
+                        Enviar
+                    </button>
+                </form>
+            </div>
+        </div>
+        <!-- Bottom Footer -->
+        <div class="mt-8 text-center text-gray-500">
+            <p>&copy; 2025. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
