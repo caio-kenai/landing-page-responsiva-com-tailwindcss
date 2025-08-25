@@ -131,5 +131,6 @@ O objetivo é transmitir uma mensagem clara, engajar o visitante com depoimentos
 
 Feito por **Caio Pacifico** & **Pedro Cássio**
 
-Caio: [🌐 LinkedIn](https://www.linkedin.com/in/caio-oliveira-pacifico) | [🐙 GitHub](https://github.com/caio-kenai)
+Caio: [🌐 LinkedIn](https://www.linkedin.com/in/caio-oliveira-pacifico-a6042b246) | [🐙 GitHub](https://github.com/caio-kenai)
+
 Pedro: [🌐 LinkedIn](https://www.linkedin.com/in/pedro-cassio) | [🐙 GitHub](https://github.com/pedrocassioG)
