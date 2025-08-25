@@ -129,6 +129,6 @@ O objetivo é transmitir uma mensagem clara, engajar o visitante com depoimentos
 
 ## 👨‍💻 Autores  
 
-Feito por **Caio Pacífico** & **Pedro Cássio**
+Feito por **Caio Pacifico** & **Pedro Cássio**
 
 [🌐 LinkedIn](https://www.linkedin.com/in/caio-oliveira-pacifico-a6042b246) | [🐙 GitHub](https://github.com/caio-kenai)
