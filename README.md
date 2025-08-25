@@ -109,7 +109,6 @@ O objetivo é transmitir uma mensagem clara, engajar o visitante com depoimentos
 1. Clone este repositório:  
    ```bash
    git clone https:github.com/caio-kenai/landing-page-responsiva-com-tailwindcss.git
-   cd nome-do-repo
    ```
 
 2. Abra o arquivo **index.html** em qualquer navegador moderno.  
