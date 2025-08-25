@@ -1,4 +1,4 @@
-# 🌐 Landing Page Responsiva com Tailwind CSS  
+# 🌐 Landing Page Responsiva com Tailwind CSS 🎨
 
 Este projeto é uma **landing page moderna e responsiva** construída com **Tailwind CSS**.  
 O objetivo é transmitir uma mensagem clara, engajar o visitante com depoimentos reais e oferecer chamadas para ação (CTAs) estratégicas, sempre com foco em conversão.  
@@ -108,7 +108,7 @@ O objetivo é transmitir uma mensagem clara, engajar o visitante com depoimentos
 
 1. Clone este repositório:  
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repo.git
+   git clone https:github.com/caio-kenai/landing-page-responsiva-com-tailwindcss.git
    cd nome-do-repo
    ```
 
@@ -131,4 +131,4 @@ O objetivo é transmitir uma mensagem clara, engajar o visitante com depoimentos
 
 Feito por **Caio Pacífico** & **Pedro Cássio**
 
-[🌐 LinkedIn](https://www.linkedin.com) | [🐙 GitHub](https://github.com)
+[🌐 LinkedIn](https://www.linkedin.com/in/caio-oliveira-pacifico-a6042b246) | [🐙 GitHub](https://github.com/caio-kenai)
